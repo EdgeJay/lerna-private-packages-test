@@ -1,0 +1,27 @@
+{
+  "name": "private-foo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Private package, should not be published to npm",
+  "author": "Wu Huijie",
+  "homepage": "https://github.com/EdgeJay/lerna-private-packages-test/tree/master/packages/private-foo#readme",
+  "license": "MIT",
+  "main": "lib/private-foo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgeJay/lerna-private-packages-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/EdgeJay/lerna-private-packages-test/issues"
+  }
+}

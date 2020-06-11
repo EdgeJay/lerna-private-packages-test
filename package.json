@@ -1,0 +1,35 @@
+{
+  "name": "lerna-private-packages-test",
+  "version": "0.1.0",
+  "description": "Test and make sure Lerna private packages do not get published into npm",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgeJay/lerna-private-packages-test.git"
+  },
+  "keywords": [
+    "node.js",
+    "lerna",
+    "private",
+    "packages"
+  ],
+  "author": "Wu Huijie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdgeJay/lerna-private-packages-test/issues"
+  },
+  "homepage": "https://github.com/EdgeJay/lerna-private-packages-test#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
