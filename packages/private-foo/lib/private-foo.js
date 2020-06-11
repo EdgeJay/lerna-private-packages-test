@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = privateFoo;
+module.exports = foo;
 
-function privateFoo() {
-    // TODO
+function foo() {
+    return 'foo!';
 }
