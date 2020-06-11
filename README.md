@@ -7,4 +7,6 @@ Packages are created using `lerna create`.
 
 ### package.json
 
-`private` field set to true.
+Alter or add `private` field value to true. Although lerna logins to npm, package is not published as it is marked as `private`.
+
+![](./screenshots/private.png)
