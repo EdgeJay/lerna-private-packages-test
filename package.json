@@ -31,5 +31,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://fake-registry"
+  }
 }
